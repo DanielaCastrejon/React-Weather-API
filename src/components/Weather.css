@@ -1,0 +1,31 @@
+.weather{
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #aabaa2, #6c7e7d);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.search-bar input{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #ffffff;
+    background: #8ea671;
+    font-size: 18px;
+}
+
+ion-icon{
+    color: #cadab5;
+    font-size: 50px;
+    cursor: pointer;
+}
