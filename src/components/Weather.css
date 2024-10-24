@@ -2,7 +2,7 @@
     place-self: center;
     padding: 40px;
     border-radius: 10px;
-    background-image: linear-gradient(45deg, #aabaa2, #6c7e7d);
+    background-image: linear-gradient(45deg, #7e8341, #6c7e7d);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,4 +28,45 @@ ion-icon{
     color: #cadab5;
     font-size: 50px;
     cursor: pointer;
+}
+
+.weather-icon{
+    font-size: 90px;
+    color: white;
+}
+
+.temperature{
+    color: white;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.location{
+    color: white;
+    font-size: 40px;
+}
+
+.weather-data{
+    width: 100%;
+    margin-top: 40px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-data .col{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+}
+
+.weather-data .col span{
+    display: block;
+    font-size: 16px;
+}
+
+.weather-data .col icon{
+    width: 45px;
+    font-size: 50px;
 }
