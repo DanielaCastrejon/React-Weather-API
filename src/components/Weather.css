@@ -24,9 +24,12 @@
     font-size: 18px;
 }
 
-ion-icon{
+.search-bar img{
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
     color: #cadab5;
-    font-size: 50px;
+    /*font-size: 50px;*/
     cursor: pointer;
 }
 
